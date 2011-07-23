@@ -1,0 +1,18 @@
+1. need python installed in your system.
+2. Use it with your own risk!
+
+Usage :
+./md5brute.py combinedChars[a,A,n,an,An,aAn] maxlength HashToCrack
+
+about the combinedChars:
+a = lowercase
+A = uppercase
+n = numeric
+an = lowercase + numeric
+An = uppercase + numeric
+aAn = lowercase + uppercase + numeric
+
+example :
+./md5brute.py a 5 21232f297a57a5a743894a0e4a801fc3
+
+there is no word like 'copyright' in this application. Just use,and enjoy :)
