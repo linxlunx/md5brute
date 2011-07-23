@@ -44,7 +44,7 @@ def brute():
         	final = chars6
 
 	for i in range(1,length):
-		for p in itertools.permutations(final, i):
+		for p in itertools.product(final, repeat=i):
 			crack = ''.join(p)
 			m = hashlib.md5()
 			m.update(crack)
@@ -63,3 +63,4 @@ def main():
 
 if __name__ == "__main__" :
         main()
+
